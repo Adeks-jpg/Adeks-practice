@@ -1,0 +1,49 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Header & Footer */
+header, footer {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Container for sidebar + main */
+.div {
+  display: flex;
+  flex: end;
+}
+
+/* Sidebar */
+.side {
+  width: 700px;
+  height: 350px;
+  background: #f4f4f4;
+  padding: 1rem;
+  background-color: aqua;
+}
+
+.menu{
+
+  
+}
+
+
+/* Main content */
+.content {
+  
+  background: yellowgreen;
+padding: 1rem;
+
+}
